@@ -7,15 +7,15 @@ Control GPIO through Adafruit MQTT
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID       "INCORE_AP_IoT" //SSID of your router
-#define WLAN_PASS       "Welcome@Incore" // Password of your router
+#define WLAN_SSID       "SSID" //SSID of your router
+#define WLAN_PASS       "PASSWORD" // Password of your router
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "bhavikjp"
-#define AIO_KEY         "55c0d1019570446cae5c095b77a8532c"
+#define AIO_USERNAME    ""
+#define AIO_KEY         ""
 
 /************ Global State (you don't need to change this!) ******************/
 
